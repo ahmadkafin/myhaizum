@@ -19,8 +19,12 @@ app.use(express.urlencoded({ extended: true }));
 const db = require("./models");
 const Role = db.role;
 
+// untuk sync migration
 // db.sequelize.sync();
-// force: true will drop the table if it already exists
+
+// untuk reset migration 
+// HATI - HATI! isi dari table akan ter-hapus semua! 
+//force: true will drop the table if it already exists
 // db.sequelize.sync({ force: true }).then(() => {
 //     console.log('Drop and Resync Database with { force: true }');
 //     initial();
