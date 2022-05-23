@@ -20,8 +20,8 @@ exports.signup = async (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: 'haizumclan@gmail.com',
-            pass: 'Sup3rm4n17'
+            user: 'your-email',
+            pass: 'your-email-password'
         },
         tls: {
             rejectUnauthorized: false
