@@ -1,0 +1,27 @@
+{
+  "name": "myhaizum-backend-2",
+  "version": "1.0.0",
+  "description": "Backend for apps myhaizum",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "haizum"
+  ],
+  "author": "kafin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5",
+    "sequelize": "^6.19.0",
+    "uuid": "^8.3.2"
+  }
+}
